@@ -12,8 +12,8 @@ option(INJA_USE_EMBEDDED_JSON "Use the shipped json header if not available on t
 option(INJA_INSTALL "Generate install targets for inja" ON)
 option(INJA_EXPORT "Export the current build tree to the package registry" ON)
 option(BUILD_TESTING "Build unit tests" OFF)
-option(INJA_BUILD_TESTS "Build unit tests when BUILD_TESTING is enabled." ON)
-option(BUILD_BENCHMARK "Build benchmark" ON)
+option(INJA_BUILD_TESTS "Build unit tests when BUILD_TESTING is enabled." OFF)
+option(BUILD_BENCHMARK "Build benchmark" OFF)
 option(COVERALLS "Generate coveralls data" OFF)
 
 
